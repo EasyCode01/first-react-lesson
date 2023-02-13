@@ -1,0 +1,32 @@
+.btn{
+    transition: 500ms all ease;
+    cursor: pointer;
+}
+
+.btn--primary{
+    background:transparent;
+    border: 1px  solid #fff;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 600;
+
+}
+
+.btn--outline{
+    background-color: #fff;
+    border: 1px  solid #fff;
+    border-radius: 8px;
+    color: #000;
+    font-size: 1.4rem;
+    font-weight: 600;
+
+}
+
+.btn--medium {
+    padding: 8px 15px;
+}
+
+.btn--large {
+    padding: 12px 20px;
+}
