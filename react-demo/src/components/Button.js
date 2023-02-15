@@ -1,5 +1,6 @@
 import React from 'react';
 import './Button.css';
+  
 const Button = ({ label, buttonStyle, buttonSize, clickHandler }) => {
 
   const style = ['btn--primary', 'btn--outline'];
