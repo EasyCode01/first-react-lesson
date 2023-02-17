@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Button from './Button';
 import Cards from './Cards';
 import Styles from './Home.module.css';
+import Footer from './Footer';
 
 const Home = () => {
 
@@ -56,7 +57,9 @@ buttonSize:'btn--medium'},
             </div>
         </div>
     </div>
+
       <Cards />
+      <Footer />
 
 
     </>

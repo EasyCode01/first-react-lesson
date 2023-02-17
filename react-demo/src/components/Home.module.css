@@ -22,6 +22,20 @@
     gap: 10px;
     align-items: center;
     line-height: 1.7;
+    animation: content-anime 1s ease-out;
+    transition:  200ms  all ease-in;
+    animation-fill-mode: forwards;
+    transform: scale(0);
+}
+
+@keyframes content-anime {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+
+    }
 }
 
 .title {

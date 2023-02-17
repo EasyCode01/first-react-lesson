@@ -1,0 +1,150 @@
+.footer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    gap:50px;
+    padding: 40px;
+    text-align: center;
+    color:#fff;
+}
+
+@media screen and (max-width:469px) {
+    .footer {
+        padding: 20px 20px;
+    }
+}
+
+@media screen and(max-width:280px) {
+    .footer {
+        padding: 30px;
+    }
+}
+
+.footer-head {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-head p {
+    color:#fff;
+}
+
+.footer-head .title {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.footer-head-search {
+    display: flex;
+    gap:5px;
+    justify-content: center;
+}
+
+.footer-head .text {
+    font-size: 1.1rem;
+    
+}
+
+.footer-head-search input {
+    font-size: 1.2rem;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+.footer-head-search input:focus {
+    outline: none;
+}
+
+@media (max-width:469px){
+    .footer-head-search {
+        flex-direction: column;
+        gap:15px;
+       
+    }
+}
+
+.footer-body {
+    display: flex;
+    gap:40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-body h3 {
+    font-size: 1.4rem;
+    text-align: left;
+    font-weight: 300;
+}
+
+.footer-body ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    
+}
+
+.footer-body ul li {
+    text-align: left;
+}
+
+.footer-body-about-us,
+.footer-body-contact-us,
+.footer-body-videos,
+.footer-body-social-media {
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.footer-base {
+   display: flex;
+   gap:95px;
+   align-items: center;
+    
+}
+
+.footer-base-icons {
+    display: flex;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-base-icons a {
+    display: inline-block;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    height: 30px;
+    width:30px;
+    border-radius: 50px;
+    transition: 500ms all ease;
+    
+}
+
+.footer-base-icons a:hover {
+    border:1px solid #eee;
+    background-color: #ffffffb1;
+}
+
+.footer-base-icons i {
+    font-size: 18px;
+}
+
+@media (max-width:590px){
+    .footer-base {
+        gap:30px;
+    }   
+}
+
+@media (max-width:469px) {
+    .footer-base {
+        flex-direction: column;
+        gap: 20px;
+    }   
+}
